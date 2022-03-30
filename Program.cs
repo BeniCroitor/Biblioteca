@@ -21,6 +21,7 @@ namespace Biblioteca
                 Console.WriteLine("2. Salvare carte");
                 Console.WriteLine("3. Afisare carte dupa ID");
                 Console.WriteLine("4. Cautare carte");
+                Console.WriteLine("5. Afisare toate cartile");
 
                 Console.WriteLine("x. Inchidere program");
 
@@ -46,6 +47,9 @@ namespace Biblioteca
                         Carte carteSearch = new Carte(4);
                         carteSearch.Search();
                         carteSearch.AfisareCarte();
+                        break;
+                    case "5":
+                        Carte.AfisareCarti();
                         break;
 
 
