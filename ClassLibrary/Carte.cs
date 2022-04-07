@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace ClaseCarte
+namespace ClasaCarte
 {
 
     public class Carte
@@ -128,6 +128,23 @@ namespace ClaseCarte
             Console.WriteLine("Autor:  {0}", Autor);
             Console.WriteLine("Editura:  {0}", Editura);
             Console.WriteLine("ISBN: {0}",ISBN);
+            Console.WriteLine("Anul aparitiei:  {0}", anAparitie);
+            Console.WriteLine("Nr exemplare:  {0}", nrExemplare);
+            Console.WriteLine("Anul editiei:  {0}", anEditie);
+
+            Console.Write("\n------------------------\n\n");
+        }
+
+        // Afisare fara ID
+
+        public void AfisareCarteFaraID()
+        {
+            Console.Write("------------------------\n\n");
+
+            Console.WriteLine("Titlu:  {0}", Nume);
+            Console.WriteLine("Autor:  {0}", Autor);
+            Console.WriteLine("Editura:  {0}", Editura);
+            Console.WriteLine("ISBN: {0}", ISBN);
             Console.WriteLine("Anul aparitiei:  {0}", anAparitie);
             Console.WriteLine("Nr exemplare:  {0}", nrExemplare);
             Console.WriteLine("Anul editiei:  {0}", anEditie);
@@ -275,3 +292,4 @@ namespace ClaseCarte
 
     }
 }
+

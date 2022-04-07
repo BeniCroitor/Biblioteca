@@ -10,3 +10,9 @@ E:\Proiect PIU\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cach
 E:\Proiect PIU\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
 E:\Proiect PIU\ClassLibrary\obj\Debug\ClassLibrary.dll
 E:\Proiect PIU\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb
