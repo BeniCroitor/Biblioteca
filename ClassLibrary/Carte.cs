@@ -20,6 +20,7 @@ namespace ClasaCarte
         public int nrExemplare;
         public int id;
 
+        public static string path = @"C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Biblioteca.txt";
 
         //Metode:
 
@@ -65,10 +66,9 @@ namespace ClasaCarte
 
         public void SalvareCarte()
         {
-            if (this.IsDuplicate() == 0)
+            if (this.IsDuplicate() == 0 || this.IsDuplicate() == -1) 
             {
 
-                string path = @"Biblioteca.txt";
                 var lineCount = File.ReadLines(path).Count();
 
                 using (StreamWriter sw = File.AppendText(path))
@@ -78,10 +78,8 @@ namespace ClasaCarte
                 }
             }
             else
-                if (this.IsDuplicate() == -1)
-                    Console.WriteLine("Cartea nu a putut fi salvata");
-            else
-                IncExemplar();
+                     this.IncExemplar();
+
         }
 
 
@@ -89,8 +87,6 @@ namespace ClasaCarte
 
         public void ExtragereCarte(string ID)
         {
-            string path = @"Biblioteca.txt";
-
             using (StreamReader sr = File.OpenText(path))
             {
                 sr.BaseStream.Position = 0;
@@ -154,8 +150,6 @@ namespace ClasaCarte
 
         public static void AfisareCarti()
         {
-
-            string path = @"Biblioteca.txt";
             string[] lines = File.ReadAllLines(path);
             Console.WriteLine("\n\n\n@@@@@@@@@@@@@@   LISTA CARTILOR DIN BIBLIOTECA    @@@@@@@@@@@@@@@@\n\n");
             foreach (string line in lines)
@@ -173,29 +167,8 @@ namespace ClasaCarte
             Console.WriteLine("\n\n\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n");
         }
 
-        // Meniu cautare
-
-        public void Search()
-        {
-            Console.WriteLine("Dupa ce criterii doriti sa cautati?\n");
-
-            Console.WriteLine("1. Nume");
-            Console.WriteLine("2. Autor");
-            Console.WriteLine("Dupa ce criterii doriti sa cautati?");
-            string c = Console.ReadLine();
-
-            switch (c)
-            {
-                // Cautare dupa titlu
-                case "1":
-                    int idSearch = CautareCarte();
-                    ExtragereCarte(Convert.ToString(idSearch));
-                    break;
-            }
-        }
-
-
-        // Cautare carte dupa nume
+        
+        // Returneaza ID-ul cartii cu titlul acela
 
         private int CautareCarte()
         {
@@ -226,7 +199,6 @@ namespace ClasaCarte
 
         private int IsDuplicate()
         {
-            string path = @"Biblioteca.txt";
             using (StreamReader sr = File.OpenText(path))
             {
                 sr.BaseStream.Position = 0;
@@ -254,7 +226,6 @@ namespace ClasaCarte
 
         private void IncExemplar()
         {
-            string path = @"Biblioteca.txt";
             string[] lines = File.ReadAllLines(path);
             
 
@@ -272,7 +243,6 @@ namespace ClasaCarte
 
         private int GetExemplare(int id)
         {
-            string path = @"Biblioteca.txt";
 
             using (StreamReader sr = new StreamReader(path))
             {
@@ -289,6 +259,38 @@ namespace ClasaCarte
             }
             return -1;
         }
+
+
+        // Returneaza un vector cu toate cartile din fisier
+
+        static public Carte[] ReturnCarti()
+        {
+            int contor = 0;
+            Carte[] VectorCarti = new Carte[50];
+            using (StreamReader sr = new StreamReader(path))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    VectorCarti[contor] = new Carte(1);
+                    VectorCarti[contor].Nume = lineSplit[1];
+                    VectorCarti[contor].Autor = lineSplit[2];
+                    VectorCarti[contor].Editura = lineSplit[3];
+                    VectorCarti[contor].ISBN = lineSplit[4];
+                    int.TryParse(lineSplit[5], out VectorCarti[contor].anAparitie);
+                    int.TryParse(lineSplit[6], out VectorCarti[contor].anEditie);
+                    int.TryParse(lineSplit[7], out VectorCarti[contor].nrExemplare);
+                    contor++;
+                }
+                return VectorCarti;
+            }
+        }
+
+
+
+
+
 
     }
 }

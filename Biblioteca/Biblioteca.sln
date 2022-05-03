@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persoana", "..\Persoana\Per
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imprumut", "..\Imprumut\Imprumut.csproj", "{82458B85-E0D6-4EB3-B7B4-9EFDB51F8284}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAfisareCarti", "..\Form_Afisare\FormAfisareCarti.csproj", "{AF5F01A0-FBF2-45E0-A431-F8FAA05D97E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAdaugareCarte", "..\FormAdaugareCarte\FormAdaugareCarte.csproj", "{68DBBB1E-F062-457E-B2F7-4168B2D91BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{82458B85-E0D6-4EB3-B7B4-9EFDB51F8284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82458B85-E0D6-4EB3-B7B4-9EFDB51F8284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82458B85-E0D6-4EB3-B7B4-9EFDB51F8284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5F01A0-FBF2-45E0-A431-F8FAA05D97E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5F01A0-FBF2-45E0-A431-F8FAA05D97E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5F01A0-FBF2-45E0-A431-F8FAA05D97E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5F01A0-FBF2-45E0-A431-F8FAA05D97E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DBBB1E-F062-457E-B2F7-4168B2D91BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DBBB1E-F062-457E-B2F7-4168B2D91BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DBBB1E-F062-457E-B2F7-4168B2D91BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DBBB1E-F062-457E-B2F7-4168B2D91BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
