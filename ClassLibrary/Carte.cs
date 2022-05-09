@@ -11,7 +11,7 @@ namespace ClasaCarte
     public class Carte
     {
         // Date:
-        public string Nume;
+        public string Titlu;
         public string Editura;
         public string Autor;
         public string ISBN;
@@ -20,7 +20,10 @@ namespace ClasaCarte
         public int nrExemplare;
         public int id;
 
-        public static string path = @"C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Biblioteca.txt";
+        const string numeFisier = @"Biblioteca.txt";
+
+        private static string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+        public static string pathBiblioteca = locatieFisierSolutie + "\\" + numeFisier;
 
         //Metode:
 
@@ -30,9 +33,9 @@ namespace ClasaCarte
         { }
 
         //Constructor 
-        public Carte(string nume = "", string autor = "", string editura = "", string isbn = "", int anaparitie = 0, int aneditie = 0, int nrexemplare = 0, int ID = 0)
+        public Carte(string titlu = "", string autor = "", string editura = "", string isbn = "", int anaparitie = 0, int aneditie = 0, int nrexemplare = 0, int ID = 0)
         {
-            Nume = nume;
+            Titlu = titlu;
             Autor = autor;
             Editura = editura;
             ISBN = isbn;
@@ -47,7 +50,7 @@ namespace ClasaCarte
          public Carte()
         {
             Console.WriteLine("Dati titlul cartii: ");
-            Nume = Console.ReadLine();
+            Titlu = Console.ReadLine();
             Console.WriteLine("Dati autorul cartii: ");
             Autor = Console.ReadLine();
             Console.WriteLine("Dati editura cartii: ");
@@ -69,11 +72,11 @@ namespace ClasaCarte
             if (this.IsDuplicate() == 0 || this.IsDuplicate() == -1) 
             {
 
-                var lineCount = File.ReadLines(path).Count();
+                var lineCount = File.ReadLines(pathBiblioteca).Count();
 
-                using (StreamWriter sw = File.AppendText(path))
+                using (StreamWriter sw = File.AppendText(pathBiblioteca))
                 {
-                    string fileLine = Convert.ToString(lineCount + 1) + ";" + Convert.ToString(this.Nume) + ";" + Convert.ToString(this.Autor) + ";" + Convert.ToString(this.Editura) + ";" + Convert.ToString(this.ISBN) + ";" + Convert.ToString((this.anAparitie)) + ";" + Convert.ToString((this.anEditie)) + ";" + Convert.ToString((this.nrExemplare));
+                    string fileLine = Convert.ToString(lineCount + 1) + ";" + Convert.ToString(this.Titlu) + ";" + Convert.ToString(this.Autor) + ";" + Convert.ToString(this.Editura) + ";" + Convert.ToString(this.ISBN) + ";" + Convert.ToString((this.anAparitie)) + ";" + Convert.ToString((this.anEditie)) + ";" + Convert.ToString((this.nrExemplare));
                     sw.WriteLine(fileLine);
                 }
             }
@@ -87,7 +90,7 @@ namespace ClasaCarte
 
         public void ExtragereCarte(string ID)
         {
-            using (StreamReader sr = File.OpenText(path))
+            using (StreamReader sr = File.OpenText(pathBiblioteca))
             {
                 sr.BaseStream.Position = 0;
                 string line;
@@ -98,7 +101,7 @@ namespace ClasaCarte
                     LineCounter++;
                     if (Convert.ToString(LineCounter) == ID)
                     {
-                        this.Nume = vs[1];
+                        this.Titlu = vs[1];
                         this.Autor = vs[2];
                         this.Editura = vs[3];
                         this.ISBN = vs[4];
@@ -120,7 +123,7 @@ namespace ClasaCarte
             Console.Write("\n\n------------------------\n\n");
 
             Console.WriteLine("Id Carte:  {0}", id);
-            Console.WriteLine("Titlu:  {0}", Nume);
+            Console.WriteLine("Titlu:  {0}", Titlu);
             Console.WriteLine("Autor:  {0}", Autor);
             Console.WriteLine("Editura:  {0}", Editura);
             Console.WriteLine("ISBN: {0}",ISBN);
@@ -137,7 +140,7 @@ namespace ClasaCarte
         {
             Console.Write("------------------------\n\n");
 
-            Console.WriteLine("Titlu:  {0}", Nume);
+            Console.WriteLine("Titlu:  {0}", Titlu);
             Console.WriteLine("Autor:  {0}", Autor);
             Console.WriteLine("Editura:  {0}", Editura);
             Console.WriteLine("ISBN: {0}", ISBN);
@@ -148,26 +151,7 @@ namespace ClasaCarte
             Console.Write("\n------------------------\n\n");
         }
 
-        public static void AfisareCarti()
-        {
-            string[] lines = File.ReadAllLines(path);
-            Console.WriteLine("\n\n\n@@@@@@@@@@@@@@   LISTA CARTILOR DIN BIBLIOTECA    @@@@@@@@@@@@@@@@\n\n");
-            foreach (string line in lines)
-            {
-                string[] parts = line.Split(';');
-                Console.WriteLine("------------\nID: {0}",parts[0]);
-                Console.WriteLine("Titlu: {0}", parts[1]);
-                Console.WriteLine("Autor: {0}", parts[2]);
-                Console.WriteLine("Editura: {0}", parts[3]);
-                Console.WriteLine("ISBN: {0}", parts[4]);
-                Console.WriteLine("Anul aparitiei: {0}", parts[5]);
-                Console.WriteLine("Anul editiei curente: {0}", parts[6]);
-                Console.WriteLine("Nr exemplare: {0}", parts[7]);
-            }
-            Console.WriteLine("\n\n\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n");
-        }
-
-        
+                
         // Returneaza ID-ul cartii cu titlul acela
 
         private int CautareCarte()
@@ -199,7 +183,7 @@ namespace ClasaCarte
 
         private int IsDuplicate()
         {
-            using (StreamReader sr = File.OpenText(path))
+            using (StreamReader sr = File.OpenText(pathBiblioteca))
             {
                 sr.BaseStream.Position = 0;
                 string line;
@@ -210,7 +194,7 @@ namespace ClasaCarte
                     LineCounter++;
                     int.TryParse (vs[5], out int anA);
                     int.TryParse(vs[6], out int anE);
-                    if (Nume == vs[1] & Autor == vs[2] & Editura == vs[3] & ISBN == vs[4] & anAparitie == anA & anEditie == anE)
+                    if (Titlu == vs[1] & Autor == vs[2] & Editura == vs[3] & ISBN == vs[4] & anAparitie == anA & anEditie == anE)
                         return LineCounter;
                     
                 }
@@ -226,15 +210,15 @@ namespace ClasaCarte
 
         private void IncExemplar()
         {
-            string[] lines = File.ReadAllLines(path);
+            string[] lines = File.ReadAllLines(pathBiblioteca);
             
 
             int idD = this.IsDuplicate();
             int ExemplNou = this.nrExemplare + this.GetExemplare(idD);
-            string LineAmend = Convert.ToString(idD) + ";" + Convert.ToString(this.Nume) + ";" + Convert.ToString(this.Autor) + ";" + Convert.ToString(this.Editura) + ";" + Convert.ToString(this.ISBN) + ";" + Convert.ToString((this.anAparitie)) + ";" + Convert.ToString((this.anEditie)) + ";" + Convert.ToString((ExemplNou));
+            string LineAmend = Convert.ToString(idD) + ";" + Convert.ToString(this.Titlu) + ";" + Convert.ToString(this.Autor) + ";" + Convert.ToString(this.Editura) + ";" + Convert.ToString(this.ISBN) + ";" + Convert.ToString((this.anAparitie)) + ";" + Convert.ToString((this.anEditie)) + ";" + Convert.ToString((ExemplNou));
 
             lines[idD-1] = LineAmend;
-            File.WriteAllLines(path, lines);
+            File.WriteAllLines(pathBiblioteca, lines);
 
         }
 
@@ -244,7 +228,7 @@ namespace ClasaCarte
         private int GetExemplare(int id)
         {
 
-            using (StreamReader sr = new StreamReader(path))
+            using (StreamReader sr = new StreamReader(pathBiblioteca))
             {
                 while (!sr.EndOfStream)
                 {
@@ -263,27 +247,27 @@ namespace ClasaCarte
 
         // Returneaza un vector cu toate cartile din fisier
 
-        static public Carte[] ReturnCarti()
+        static public List<Carte> ReturnCarti()
         {
-            int contor = 0;
-            Carte[] VectorCarti = new Carte[50];
-            using (StreamReader sr = new StreamReader(path))
+            List<Carte> listaCarti = new List<Carte>();
+            using (StreamReader sr = new StreamReader(pathBiblioteca))
             {
                 while (!sr.EndOfStream)
                 {
                     string line = sr.ReadLine();
                     string[] lineSplit = line.Split(';');
-                    VectorCarti[contor] = new Carte(1);
-                    VectorCarti[contor].Nume = lineSplit[1];
-                    VectorCarti[contor].Autor = lineSplit[2];
-                    VectorCarti[contor].Editura = lineSplit[3];
-                    VectorCarti[contor].ISBN = lineSplit[4];
-                    int.TryParse(lineSplit[5], out VectorCarti[contor].anAparitie);
-                    int.TryParse(lineSplit[6], out VectorCarti[contor].anEditie);
-                    int.TryParse(lineSplit[7], out VectorCarti[contor].nrExemplare);
-                    contor++;
+                    Carte carte = new Carte(1);
+                    carte.Titlu = lineSplit[1];
+                    carte.Autor = lineSplit[2];
+                    carte.Editura = lineSplit[3];
+                    carte.ISBN = lineSplit[4];
+                    int.TryParse(lineSplit[5], out carte.anAparitie);
+                    int.TryParse(lineSplit[6], out carte.anEditie);
+                    int.TryParse(lineSplit[7], out carte.nrExemplare);
+                    int.TryParse(lineSplit[0], out carte.id);
+                    listaCarti.Add(carte);
                 }
-                return VectorCarti;
+                return listaCarti;
             }
         }
 
