@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 using ClasaPersoana;
 
 namespace FormAfisarePersoane
@@ -42,12 +43,13 @@ namespace FormAfisarePersoane
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            cautare_Persoana();
+        }
+
+        private void cautare_Persoana()
         {
             listView1.Items.Clear();
             foreach (Persoana persoana in listaPersoane)
@@ -61,13 +63,23 @@ namespace FormAfisarePersoane
                 elem[5] = Convert.ToString(persoana.nrCI);
                 elem[6] = Convert.ToString(persoana.nrCartiImprumutate);
 
-                if(elem[1]==textBox1.Text || elem[2]==textBox1.Text)
+                if (elem[1] == textBox1.Text || elem[2] == textBox1.Text)
                 {
                     ListViewItem item = new ListViewItem(elem);
                     listView1.Items.Add(item);
                 }
-                
+
             }
+        }
+
+        private void FormAfisarePersoane_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            cautare_Persoana();
         }
     }
 }

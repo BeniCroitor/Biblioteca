@@ -108,7 +108,7 @@ namespace FormAfisarePersoane
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 20);
             this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button1
             // 
@@ -131,6 +131,7 @@ namespace FormAfisarePersoane
             this.Name = "FormAfisarePersoane";
             this.Padding = new System.Windows.Forms.Padding(7, 50, 7, 7);
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormAfisarePersoane_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
