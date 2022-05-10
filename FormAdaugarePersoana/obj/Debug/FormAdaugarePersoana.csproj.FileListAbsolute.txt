@@ -27,3 +27,4 @@ C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdau
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.csproj.CoreCompileInputs.cache
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.exe
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.csproj.CopyComplete

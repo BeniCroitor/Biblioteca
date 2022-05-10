@@ -10,4 +10,3 @@ C:\Users\STUDENT\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\Persoana.
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\Persoana.pdb
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.AssemblyReference.cache
 C:\Users\STUDENT\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.FormAfisarePersoane.resources
-C:\Users\STUDENT\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.CopyComplete

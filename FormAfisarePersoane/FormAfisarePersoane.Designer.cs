@@ -37,6 +37,8 @@ namespace FormAfisarePersoane
             this.Serie = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NrCI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NrCartiImpr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -52,9 +54,9 @@ namespace FormAfisarePersoane
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(7, 7);
+            this.listView1.Location = new System.Drawing.Point(7, 50);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(549, 436);
+            this.listView1.Size = new System.Drawing.Size(549, 393);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -100,16 +102,37 @@ namespace FormAfisarePersoane
             this.NrCartiImpr.Text = "Nr carti";
             this.NrCartiImpr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Form1
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(7, 14);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(182, 20);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(215, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // FormAfisarePersoane
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listView1);
-            this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(7);
+            this.Name = "FormAfisarePersoane";
+            this.Padding = new System.Windows.Forms.Padding(7, 50, 7, 7);
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -123,6 +146,8 @@ namespace FormAfisarePersoane
         private System.Windows.Forms.ColumnHeader Serie;
         private System.Windows.Forms.ColumnHeader NrCI;
         private System.Windows.Forms.ColumnHeader NrCartiImpr;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

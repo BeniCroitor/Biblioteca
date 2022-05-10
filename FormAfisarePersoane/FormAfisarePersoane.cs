@@ -14,11 +14,12 @@ namespace FormAfisarePersoane
 {
     public partial class FormAfisarePersoane : Form
     {
+        static List<Persoana> listaPersoane;
         public FormAfisarePersoane()
         {
             InitializeComponent();
 
-            List<Persoana> listaPersoane = Persoana.ReturnPersoane();
+            listaPersoane = Persoana.ReturnPersoane();
             foreach (Persoana persoana in listaPersoane)
             {
                 string[] elem = new string[7];
@@ -39,6 +40,34 @@ namespace FormAfisarePersoane
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Clear();
+            foreach (Persoana persoana in listaPersoane)
+            {
+                string[] elem = new string[7];
+                elem[0] = Convert.ToString(persoana.ID);
+                elem[1] = persoana.nume;
+                elem[2] = persoana.prenume;
+                elem[3] = persoana.CNP;
+                elem[4] = persoana.serieCI;
+                elem[5] = Convert.ToString(persoana.nrCI);
+                elem[6] = Convert.ToString(persoana.nrCartiImprumutate);
+
+                if(elem[1]==textBox1.Text || elem[2]==textBox1.Text)
+                {
+                    ListViewItem item = new ListViewItem(elem);
+                    listView1.Items.Add(item);
+                }
+                
+            }
         }
     }
 }
