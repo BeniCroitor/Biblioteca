@@ -4,3 +4,9 @@ C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\Carte.cspro
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb

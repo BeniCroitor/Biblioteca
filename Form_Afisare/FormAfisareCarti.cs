@@ -23,6 +23,7 @@ namespace Form_Afisare
 
         public FormAfisareCarti()
         {
+            this.CenterToScreen();
             InitializeComponent();
 
             List<Carte> listaCarti = Carte.ReturnCarti();

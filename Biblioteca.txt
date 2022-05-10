@@ -5,3 +5,4 @@
 5;AAABBB;abab;baba;1234;2000;2000;12
 6;Beowulf;J R R Tolkien;Harper Collins;90123847354;1972;2019;2
 7;hdfg;dfgh;fdgh;fdgh;2019;2020;2
+8;;;;;0;0;1

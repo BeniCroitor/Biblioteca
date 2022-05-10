@@ -12,3 +12,15 @@ C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\ClassLibrar
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.pdb
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.CopyComplete
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe.config
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.FormAfisareCarti.resources
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.Properties.Resources.resources
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.GenerateResource.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.exe
+C:\Users\STUDENT\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.pdb

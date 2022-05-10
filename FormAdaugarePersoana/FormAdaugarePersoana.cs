@@ -15,6 +15,7 @@ namespace FormAdaugarePersoana
     {
         public FormAdaugarePersoana()
         {
+            this.CenterToScreen();
             InitializeComponent();
         }
 
@@ -29,9 +30,23 @@ namespace FormAdaugarePersoana
 
         private void btnAdaug_Click(object sender, EventArgs e)
         {
-            int.TryParse(txtNr.Text, out int nr);
-            ClasaPersoana.Persoana persoana = new Persoana( -1 , txtNume.Text , txtPrenume.Text , txtCNP.Text , txtSerie.Text , nr );  
-            persoana.SalvarePersoana();
+            if (txtCNP.Text == string.Empty || txtNr.Text == string.Empty || txtNume.Text == string.Empty || txtPrenume.Text == string.Empty || txtSerie.Text == string.Empty)
+            {
+                DialogResult res = MessageBox.Show("Cel putin un camp este gol", "EROARE", MessageBoxButtons.OK);
+                
+            }
+            else
+            {
+                int.TryParse(txtNr.Text, out int nr);
+                ClasaPersoana.Persoana persoana = new Persoana(-1, txtNume.Text, txtPrenume.Text, txtCNP.Text, txtSerie.Text, nr);
+                persoana.SalvarePersoana();
+            }
+            
+        }
+
+        private void FormAdaugarePersoana_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

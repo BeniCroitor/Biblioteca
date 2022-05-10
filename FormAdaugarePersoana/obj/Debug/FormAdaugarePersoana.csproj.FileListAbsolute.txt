@@ -15,3 +15,15 @@ C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugarePersoana\bin\Debug\For
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugarePersoana\bin\Debug\FormAdaugarePersoana.pdb
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugarePersoana\bin\Debug\Persoana.dll
 C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugarePersoana\bin\Debug\Persoana.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\bin\Debug\FormAdaugarePersoana.exe.config
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\bin\Debug\FormAdaugarePersoana.exe
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\bin\Debug\FormAdaugarePersoana.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\bin\Debug\Persoana.dll
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\bin\Debug\Persoana.pdb
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.FormAdaugarePersoana.resources
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.Properties.Resources.resources
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.csproj.GenerateResource.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.exe
+C:\Users\STUDENT\Source\Repos\Biblioteca\FormAdaugarePersoana\obj\Debug\FormAdaugarePersoana.pdb

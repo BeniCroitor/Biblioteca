@@ -12,15 +12,15 @@ namespace ClasaPersoana
         const string numeFisier = @"Persoane.txt";
 
         private static string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
-        private string pathPers = locatieFisierSolutie + "\\" + numeFisier;
+        private static string pathPers = locatieFisierSolutie + "\\" + numeFisier;
 
-        private string nume;
-        private string prenume;
-        private int ID;
-        private string CNP;
-        private int nrCartiImprumutate;
-        private double nrCI;
-        private string serieCI;
+        public string nume;
+        public string prenume;
+        public int ID;
+        public string CNP;
+        public int nrCartiImprumutate;
+        public double nrCI;
+        public string serieCI;
 
 
         // Constructor gol
@@ -44,7 +44,7 @@ namespace ClasaPersoana
 
 
         // Functie ce pune toate persoanele din fisier intr-un array
-        public void ExtragerePersoane()
+        public static List<Persoana> ReturnPersoane()
         {
             List<Persoana> listaPersoane = new List<Persoana>();
             using (StreamReader sr = new StreamReader(pathPers))
@@ -61,6 +61,7 @@ namespace ClasaPersoana
 
                     listaPersoane.Add(new Persoana(ID, lineSplit[1] , lineSplit[2], lineSplit[3] , lineSplit[4], nrCI , nrCarti));
                 }
+                return listaPersoane;
             }
         }
 

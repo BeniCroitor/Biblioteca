@@ -1,6 +1,6 @@
 ﻿namespace FormAdaugareCarte
 {
-    partial class Form1
+    partial class FormAdaugareCarte
     {
         /// <summary>
         /// Required designer variable.

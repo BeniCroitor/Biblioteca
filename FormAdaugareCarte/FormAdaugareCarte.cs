@@ -11,10 +11,10 @@ using ClasaCarte;
 
 namespace FormAdaugareCarte
 {
-    public partial class Form1 : Form
+    public partial class FormAdaugareCarte : Form
     {
         Carte carte;
-        public Form1()
+        public FormAdaugareCarte()
         {
             InitializeComponent();
         }

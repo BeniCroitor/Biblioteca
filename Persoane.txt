@@ -1,3 +1,4 @@
-1;Beni;Croitor;5020424132811
+1;Beni;Croitor;5020424132811;KZ;132811;0
 2;dfgh;dfgh;dfghfdg;fg;1234;0
 3;qqqqqq;qqqqqq;123456789;qw;90878;0
+4;X;XCV;SDF;V;0;0

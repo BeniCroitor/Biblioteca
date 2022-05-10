@@ -42,10 +42,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Museo Sans 700", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(581, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(436, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 34);
+            this.label1.Size = new System.Drawing.Size(148, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lista Cartilor";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -64,9 +65,10 @@
             this.ListaCarti.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListaCarti.GridLines = true;
             this.ListaCarti.HideSelection = false;
-            this.ListaCarti.Location = new System.Drawing.Point(10, 10);
+            this.ListaCarti.Location = new System.Drawing.Point(8, 8);
+            this.ListaCarti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ListaCarti.Name = "ListaCarti";
-            this.ListaCarti.Size = new System.Drawing.Size(1450, 586);
+            this.ListaCarti.Size = new System.Drawing.Size(1086, 476);
             this.ListaCarti.TabIndex = 1;
             this.ListaCarti.UseCompatibleStateImageBehavior = false;
             this.ListaCarti.View = System.Windows.Forms.View.Details;
@@ -114,15 +116,16 @@
             // 
             // FormAfisareCarti
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1470, 606);
+            this.ClientSize = new System.Drawing.Size(1102, 492);
             this.Controls.Add(this.ListaCarti);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormAfisareCarti";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Padding = new System.Windows.Forms.Padding(8);
             this.Text = "Carti";
             this.ResumeLayout(false);
             this.PerformLayout();
