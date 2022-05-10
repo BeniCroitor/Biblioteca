@@ -1,0 +1,14 @@
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.exe.config
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.exe
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\bin\Debug\ClassLibrary.dll
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\bin\Debug\ClassLibrary.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.AssemblyReference.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.SuggestedBindingRedirects.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.Form1.resources
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.Properties.Resources.resources
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.GenerateResource.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.CoreCompileInputs.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.CopyComplete
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.exe
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.pdb

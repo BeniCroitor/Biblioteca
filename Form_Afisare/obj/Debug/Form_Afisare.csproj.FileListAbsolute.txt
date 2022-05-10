@@ -1,0 +1,14 @@
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe.config
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.dll
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.pdb
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.csproj.AssemblyReference.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.csproj.SuggestedBindingRedirects.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.Form1.resources
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.Properties.Resources.resources
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.csproj.GenerateResource.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.csproj.CoreCompileInputs.cache
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.csproj.CopyComplete
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.exe
+C:\Users\croit\Desktop\Proiect PIU\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.pdb
