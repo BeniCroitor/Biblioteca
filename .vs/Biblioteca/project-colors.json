@@ -1,21 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "22b94da8-416f-47bc-af00-f4a79031e441": {
-      "ProjectGuid": "22b94da8-416f-47bc-af00-f4a79031e441",
-      "DisplayName": "Biblioteca",
-      "ColorIndex": 0
-    },
-    "5bd6704d-a826-4232-a7d5-dbb04e90c168": {
-      "ProjectGuid": "5bd6704d-a826-4232-a7d5-dbb04e90c168",
-      "DisplayName": "Clase",
-      "ColorIndex": 1
-    },
-    "42ab2a15-f972-4026-a300-69dd38b2bca7": {
-      "ProjectGuid": "42ab2a15-f972-4026-a300-69dd38b2bca7",
-      "DisplayName": "ClassLibrary",
-      "ColorIndex": 2
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 0
 }

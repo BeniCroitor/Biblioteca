@@ -43,6 +43,12 @@ namespace FormAfisarePersoane
 
         }
 
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            textBox1.Text = e.KeyCode.ToString();
+            cautare_Persoana();
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -63,7 +69,7 @@ namespace FormAfisarePersoane
                 elem[5] = Convert.ToString(persoana.nrCI);
                 elem[6] = Convert.ToString(persoana.nrCartiImprumutate);
 
-                if (elem[1] == textBox1.Text || elem[2] == textBox1.Text)
+                if (elem[1].ToLower().Contains(textBox1.Text.ToLower()) || elem[2].ToLower().Contains(textBox1.Text.ToLower()))
                 {
                     ListViewItem item = new ListViewItem(elem);
                     listView1.Items.Add(item);
@@ -77,7 +83,13 @@ namespace FormAfisarePersoane
 
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        //private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        //{
+        //    textBox1.Text = KeyEventHandler(object sender, )
+            
+        //}
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
             cautare_Persoana();
         }
