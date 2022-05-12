@@ -1,0 +1,6 @@
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\bin\Debug\Imprumut.dll
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\bin\Debug\Imprumut.pdb
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.AssemblyReference.cache
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.CoreCompileInputs.cache
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.dll
+C:\Users\croit\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.pdb

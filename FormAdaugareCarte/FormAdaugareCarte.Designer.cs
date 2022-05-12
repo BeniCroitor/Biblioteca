@@ -33,13 +33,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.ButonSterge = new System.Windows.Forms.Button();
             this.ButonAdauga = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -98,16 +96,6 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Anul aparitiei";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Museo Sans 700", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(53, 297);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 24);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Anul editiei";
-            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Montserrat Subrayada", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -149,14 +137,6 @@
             this.textBox5.Size = new System.Drawing.Size(61, 32);
             this.textBox5.TabIndex = 4;
             // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Montserrat Subrayada", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(223, 294);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(63, 32);
-            this.textBox6.TabIndex = 4;
-            // 
             // ButonSterge
             // 
             this.ButonSterge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -185,7 +165,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Museo Sans 700", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(53, 348);
+            this.label6.Location = new System.Drawing.Point(53, 295);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(169, 24);
             this.label6.TabIndex = 3;
@@ -194,7 +174,7 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Museo Sans 700", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(249, 348);
+            this.numericUpDown1.Location = new System.Drawing.Point(249, 295);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             50,
             0,
@@ -214,7 +194,7 @@
             0,
             0});
             // 
-            // Form1
+            // FormAdaugareCarte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,20 +202,18 @@
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.ButonAdauga);
             this.Controls.Add(this.ButonSterge);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Titlu);
-            this.Name = "Form1";
+            this.Name = "FormAdaugareCarte";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -251,13 +229,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button ButonSterge;
         private System.Windows.Forms.Button ButonAdauga;
         private System.Windows.Forms.Label label6;

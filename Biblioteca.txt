@@ -1,8 +1,10 @@
-1;Ion;Liviu Rebreanu;Adevarul;298789524352345;2012;2020;1
-2;Moara cu noroc;Ioan Slavici;Rao;498738495634;1881;2020;1
-3;Stapanul Inelelor;J R R Tolkien;Harper Collins;29384572384;1954;2020;2
-4;sdjfkghkj;sdfgjh;sfgsfdgj;458769;2012;2020;2
-5;AAABBB;abab;baba;1234;2000;2000;12
-6;Beowulf;J R R Tolkien;Harper Collins;90123847354;1972;2019;2
-7;hdfg;dfgh;fdgh;fdgh;2019;2020;2
-8;;;;;0;0;1
+1;Ion;Liviu Rebreanu;Adevarul;9786069830789;2015;1
+2;Moara cu noroc;Ioan Slavici;Adevarul;9786069019337;2014;1
+3;The Lord of the Rings;J R R Tolkien;Harper Collins;9780261103252;1995;1
+4;Istorii;Herodot;Humanitas;9789735054847;2018;1
+5;Divina Comedie;Dante Alighieri;Rao;9786060067146;2022;1
+6;Beowulf;J R R Tolkien;Harper Collins;9780007590094;2016;1
+7;Demonii;Fyodor M Dostoevski;Art;9786067106961;2021;1
+8;The Hobbit;J R R Tolkien;Harper Collins;9780007487301;2012;2
+9;Dublul;Fyodor M Dostoevski;Art;9786067106961;2021;1
+10;Faust;Goethe;Humanitas;9789735057503;2017;1

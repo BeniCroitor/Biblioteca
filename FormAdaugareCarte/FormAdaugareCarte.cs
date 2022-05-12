@@ -36,15 +36,13 @@ namespace FormAdaugareCarte
             textBox3.Clear();
             textBox4.Clear();
             textBox5.Clear();
-            textBox6.Clear();
             numericUpDown1.Value = 1;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             int.TryParse(textBox5.Text, out int anApar);
-            int.TryParse(textBox6.Text, out int anEdit);
-            this.carte = new Carte(textBox1.Text , textBox2.Text , textBox3.Text , textBox4.Text , anApar , anEdit , Convert.ToInt32(numericUpDown1.Value));
+            this.carte = new Carte(textBox1.Text , textBox2.Text , textBox3.Text , textBox4.Text , anApar  , Convert.ToInt32(numericUpDown1.Value));
             carte.SalvareCarte();
         }
 

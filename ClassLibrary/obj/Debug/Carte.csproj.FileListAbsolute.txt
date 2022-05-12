@@ -10,3 +10,9 @@ C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.Ass
 C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
 C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\STUDENT\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.AssemblyReference.cache
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb

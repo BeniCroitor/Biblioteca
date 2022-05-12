@@ -18,17 +18,19 @@ namespace Form_Afisare
         private const int LATIME_CONTROL = 100;
         private const int DIMENSIUNE_PAS_Y = 30;
         private const int DIMENSIUNE_PAS_X = 120;
+        private static List<Carte> listaCarti;
+        private static int nrCartiFisier = 1;
 
-        
 
         public FormAfisareCarti()
         {
             this.CenterToScreen();
             InitializeComponent();
 
-            List<Carte> listaCarti = Carte.ReturnCarti();
+            listaCarti = Carte.ReturnCarti();
             foreach(Carte carte in listaCarti)
             {
+                nrCartiFisier++;
                 string[] elem = new string[7];
                 elem[0] = Convert.ToString(carte.id);
                 elem[1] = carte.Titlu;
@@ -40,14 +42,37 @@ namespace Form_Afisare
 
 
                 ListViewItem item = new ListViewItem(elem);
-                ListaCarti.Items.Add(item);
+                listView1.Items.Add(item);
             }
 
-            this.Size = new System.Drawing.Size(ListaCarti.Width + 300, ListaCarti.Height + 300);
-            
+            this.Width = 905;
         }
 
-        
+        private void cautare_Carte()
+        {
+            listView1.Items.Clear();
+            foreach (Carte carte in listaCarti)
+            {
+                string[] elem = new string[7];
+                elem[0] = Convert.ToString(carte.id);
+                elem[1] = carte.Titlu;
+                elem[2] = carte.Autor;
+                elem[3] = carte.Editura;
+                elem[4] = carte.ISBN;
+                elem[5] = Convert.ToString(carte.anAparitie);
+                elem[6] = Convert.ToString(carte.nrExemplare);
+
+                if (elem[1].ToLower().Contains(textBox1.Text.ToLower()) || elem[2].ToLower().Contains(textBox1.Text.ToLower()) || elem[3].ToLower().Contains(textBox1.Text.ToLower()))
+                {
+                    ListViewItem item = new ListViewItem(elem);
+                    listView1.Items.Add(item);
+                }
+
+            }
+        }
+
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -62,6 +87,16 @@ namespace Form_Afisare
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            cautare_Carte();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cautare_Carte();
         }
     }
 }

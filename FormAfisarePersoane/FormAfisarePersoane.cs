@@ -20,6 +20,8 @@ namespace FormAfisarePersoane
         {
             InitializeComponent();
 
+            listView1.Font = new Font(listView1.Font, FontStyle.Bold);
+
             listaPersoane = Persoana.ReturnPersoane();
             foreach (Persoana persoana in listaPersoane)
             {
@@ -34,6 +36,7 @@ namespace FormAfisarePersoane
 
 
                 ListViewItem item = new ListViewItem(elem);
+                item.Font = new Font(item.Font, FontStyle.Regular);
                 listView1.Items.Add(item);
             }
         }
@@ -93,5 +96,7 @@ namespace FormAfisarePersoane
         {
             cautare_Persoana();
         }
+
+        
     }
 }
