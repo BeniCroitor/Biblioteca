@@ -61,6 +61,7 @@ namespace FormAfisarePersoane
         private void cautare_Persoana()
         {
             listView1.Items.Clear();
+            listView1.Font = new Font(listView1.Font, FontStyle.Regular);
             foreach (Persoana persoana in listaPersoane)
             {
                 string[] elem = new string[7];

@@ -50,5 +50,15 @@ namespace FormAdaugareCarte
         {
 
         }
+
+        private void Titlu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

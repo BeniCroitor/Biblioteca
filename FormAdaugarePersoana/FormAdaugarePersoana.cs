@@ -48,5 +48,19 @@ namespace FormAdaugarePersoana
         {
 
         }
+
+        private void txtNume_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNume_Validating(object sender, CancelEventArgs e)
+        {
+            if (!txtNume.Text.All(char.IsLetter))
+                label1.Visible = true;
+            else
+                label1.Visible = false;
+            
+        }
     }
 }

@@ -16,3 +16,9 @@ C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.Assem
 C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
 C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\croit\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\source\repos\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\source\repos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\source\repos\ClassLibrary\obj\Debug\Carte.csproj.AssemblyReference.cache
+C:\Users\STUDENT\source\repos\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\source\repos\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\STUDENT\source\repos\ClassLibrary\obj\Debug\ClassLibrary.pdb

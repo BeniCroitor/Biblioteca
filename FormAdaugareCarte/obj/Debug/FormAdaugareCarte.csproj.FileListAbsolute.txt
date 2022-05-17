@@ -39,3 +39,15 @@ C:\Users\croit\Source\Repos\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareC
 C:\Users\croit\Source\Repos\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.CopyComplete
 C:\Users\croit\Source\Repos\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.exe
 C:\Users\croit\Source\Repos\Biblioteca\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.pdb
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.exe.config
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.exe
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\bin\Debug\FormAdaugareCarte.pdb
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.AssemblyReference.cache
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.FormAdaugareCarte.resources
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.Properties.Resources.resources
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.GenerateResource.cache
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.exe
+C:\Users\STUDENT\source\repos\FormAdaugareCarte\obj\Debug\FormAdaugareCarte.pdb

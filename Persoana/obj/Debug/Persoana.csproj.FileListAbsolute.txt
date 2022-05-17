@@ -16,3 +16,9 @@ C:\Users\croit\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.csproj.Assemb
 C:\Users\croit\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.csproj.CoreCompileInputs.cache
 C:\Users\croit\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.dll
 C:\Users\croit\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.pdb
+C:\Users\STUDENT\source\repos\Persoana\bin\Debug\Persoana.dll
+C:\Users\STUDENT\source\repos\Persoana\bin\Debug\Persoana.pdb
+C:\Users\STUDENT\source\repos\Persoana\obj\Debug\Persoana.csproj.AssemblyReference.cache
+C:\Users\STUDENT\source\repos\Persoana\obj\Debug\Persoana.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\source\repos\Persoana\obj\Debug\Persoana.dll
+C:\Users\STUDENT\source\repos\Persoana\obj\Debug\Persoana.pdb
