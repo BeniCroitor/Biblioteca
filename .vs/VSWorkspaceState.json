@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Biblioteca",
+    "\\FormAdaugarePersoana"
   ],
-  "SelectedNode": "\\Biblioteca.sln",
+  "SelectedNode": "\\Biblioteca\\Biblioteca.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -77,7 +77,7 @@ namespace ClasaPersoana
                 sw.WriteLine(Linie);
             }
         }
-
+       
     
     }
 }
