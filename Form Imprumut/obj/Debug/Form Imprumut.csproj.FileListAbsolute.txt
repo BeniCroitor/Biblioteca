@@ -1,0 +1,18 @@
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Form Imprumut.exe.config
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Form Imprumut.exe
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Form Imprumut.pdb
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form_Imprumut.Form1.resources
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form_Imprumut.Properties.Resources.resources
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.exe
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.pdb
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\ClassLibrary.dll
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Persoana.dll
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\ClassLibrary.pdb
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Persoana.pdb
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\obj\Debug\Form Imprumut.csproj.CopyComplete
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Imprumut.dll
+C:\Users\User\source\repos\Biblioteca\Form Imprumut\bin\Debug\Imprumut.pdb

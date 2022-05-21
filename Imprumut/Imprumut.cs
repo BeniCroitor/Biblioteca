@@ -9,16 +9,28 @@ namespace ClasaImprumut
 {
     public class Imprumut
     {
-        int idPers;
-        int idCarte;
-        DateTime Date_out;
+        const string numeFisier = @"Imprumuturi.txt";
+
+        private static string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+        public static string pathImprumuturi = locatieFisierSolutie + "\\" + numeFisier;
+
+        public int idPers;
+        public int idCarte;
+        public string Date_out;
+
+
+        // Constructor fara param
+        public Imprumut()
+        { }
+
 
         // Constructor cu parametrii
         public Imprumut(int IDPERS, int IDCARTE)
         {
             idPers = IDPERS;
             idCarte = IDCARTE;
-            Date_out = DateTime.Now;
+            Date_out = " ";
+            
         }
 
 
@@ -26,51 +38,36 @@ namespace ClasaImprumut
         // Salvare imprumut in fisier
         public void SalvareImprumut()
         {
-            string path = @"Imprumuturi.txt";
-            string[] lines = File.ReadAllLines(path);
-            string imprumut = "#" + Convert.ToString(idCarte) + "|" + Convert.ToString(Date_out);
-            if (SearchImprumut(idPers) == true)
+            string[] lines = File.ReadAllLines(pathImprumuturi);
+            string imprumut = Convert.ToString(idPers) + ";" + Convert.ToString(idCarte) + ";" + DateTime.Now.ToString("dd/MM/yyyy");
+            using (StreamWriter sw = new StreamWriter(pathImprumuturi, true))
             {
-                int idImp = 0;
-                int contor = 0;
-                foreach (string line in lines)
-                {
-                    string[] lineSpl = line.Split(';');
-                    if (lineSpl[0] == Convert.ToString(idPers))
-                    {
-                        idImp = contor;
-                        break;
-                    }
-                    contor++;
-                }
-                lines[idImp] = imprumut;
-            }
-            else
-            {
-                using (StreamWriter sw = new StreamWriter(path, true))
-                {
-                    sw.WriteLine(Convert.ToString(idPers) + ";" + imprumut);
-                }
+                sw.WriteLine(imprumut);
             }
         }
 
-        // Cauta daca persoana exista deja in fisierul de imprumuturi
-        private static bool SearchImprumut(int IDPERS)
+
+        // Functie ce returneaza o lista cu toate imprumuturile din fisier
+
+        public static List<Imprumut> ReturnImprumuturi()
         {
-            string path = @"Imprumuturi.txt";
-            string[] lines = File.ReadAllLines(path);
-            foreach (string line in lines)
+            List<Imprumut> listaImprumuturi = new List<Imprumut>();
+            using (StreamReader sr = new StreamReader(pathImprumuturi))
             {
-                string[] lineSplit = line.Split(';');
-                if (Convert.ToString(IDPERS) == lineSplit[0])
-                    return true;
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    Imprumut imprumut = new Imprumut();
+                    int.TryParse(lineSplit[0], out imprumut.idCarte);
+                    int.TryParse(lineSplit[1], out imprumut.idPers);
+                    imprumut.Date_out = lineSplit[2];
+                    listaImprumuturi.Add(imprumut);
+                }
+                return listaImprumuturi;
             }
-            return false;
         }
-
-
-
-
+       
 
     }
 }

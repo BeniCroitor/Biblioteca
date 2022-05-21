@@ -77,7 +77,68 @@ namespace ClasaPersoana
                 sw.WriteLine(Linie);
             }
         }
-       
-    
+
+        public static List<string> ListaNumePersoane()
+        {
+            List<string> listaNumePersoane = new List<string>();
+            using (StreamReader sr = new StreamReader(pathPers))
+            {
+                sr.BaseStream.Position = 0;
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    listaNumePersoane.Add(lineSplit[1] + " " + lineSplit[2]);
+                }
+                return listaNumePersoane;
+            }
+        }
+
+
+        // Functie ce returneaza ID ul unei persoane dupa nume si prenume
+
+        static public int SearchNume(string nume)
+        {
+            using (StreamReader sr = new StreamReader(pathPers))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    string[] numeSplit = nume.Split(' ');
+
+                    if (lineSplit[1] == numeSplit[0] && lineSplit[2] == numeSplit[1])
+                    {
+                        int.TryParse(lineSplit[0], out int result);
+                        return result;
+                    }
+
+                }
+                return -1;
+            }
+        }
+
+        //   REVERSE::  Functie ce returneaza ID ul unei persoane dupa nume si prenume
+
+        static public string SearchID(int id)
+        {
+            using (StreamReader sr = new StreamReader(pathPers))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    
+                    if (lineSplit[0] == Convert.ToString(id))
+                    {
+                        return lineSplit[1] + " " + lineSplit[2];
+                    }
+
+                }
+                return "Eroare";
+            }
+        }
+
+
     }
 }

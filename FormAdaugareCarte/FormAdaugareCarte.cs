@@ -24,6 +24,7 @@ namespace FormAdaugareCarte
 
         }
 
+
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -50,6 +51,7 @@ namespace FormAdaugareCarte
             {
                 int.TryParse(textBox5.Text, out int anApar);
                 this.carte = new Carte(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, anApar, Convert.ToInt32(numericUpDown1.Value));
+                if(carte.)
                 carte.SalvareCarte();
             }
         }
