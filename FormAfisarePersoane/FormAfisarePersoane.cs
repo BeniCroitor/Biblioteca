@@ -32,7 +32,7 @@ namespace FormAfisarePersoane
                 elem[3] = persoana.CNP;
                 elem[4] = persoana.serieCI;
                 elem[5] = Convert.ToString(persoana.nrCI);
-                elem[6] = Convert.ToString(persoana.nrCartiImprumutate);
+                elem[6] = Convert.ToString(ClasaImprumut.Imprumut.NrCartiImprumutate(Persoana.SearchNume(elem[1] + " " + elem[2])));
 
 
                 ListViewItem item = new ListViewItem(elem);
@@ -48,7 +48,7 @@ namespace FormAfisarePersoane
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            textBox1.Text = e.KeyCode.ToString();
+            SwearchBox.Text = e.KeyCode.ToString();
             cautare_Persoana();
 
         }
@@ -61,7 +61,10 @@ namespace FormAfisarePersoane
         private void cautare_Persoana()
         {
             listView1.Items.Clear();
-            listView1.Font = new Font(listView1.Font, FontStyle.Regular);
+
+            listView1.Font = new Font(listView1.Font, FontStyle.Bold);
+
+            
             foreach (Persoana persoana in listaPersoane)
             {
                 string[] elem = new string[7];
@@ -73,9 +76,10 @@ namespace FormAfisarePersoane
                 elem[5] = Convert.ToString(persoana.nrCI);
                 elem[6] = Convert.ToString(persoana.nrCartiImprumutate);
 
-                if (elem[1].ToLower().Contains(textBox1.Text.ToLower()) || elem[2].ToLower().Contains(textBox1.Text.ToLower()))
+                if (elem[1].ToLower().Contains(SwearchBox.Text.ToLower()) || elem[2].ToLower().Contains(SwearchBox.Text.ToLower()))
                 {
                     ListViewItem item = new ListViewItem(elem);
+                    item.Font = new Font(listView1.Font, FontStyle.Regular);
                     listView1.Items.Add(item);
                 }
 

@@ -11,13 +11,13 @@ namespace ClasaCarte
     public class Carte
     {
         // Date:
-        public string Titlu;
-        public string Editura;
-        public string Autor;
-        public string ISBN;
-        public int anAparitie;
-        public int nrExemplare;
-        public int id;
+        public string Titlu { get; set; }
+        public string Editura { get; set; }
+        public string Autor { get; set; }
+        public string ISBN { get; set; }
+        public int anAparitie { get; set; }
+        public int nrExemplare  { get; set; }
+        public int id { get; set; }
 
         const string numeFisier = @"Biblioteca.txt";
 
@@ -43,26 +43,7 @@ namespace ClasaCarte
             id = ID;
         }
 
-        //// Citire carte de la tastatura
-
-        // public Carte()
-        //{
-        //    Console.WriteLine("Dati titlul cartii: ");
-        //    Titlu = Console.ReadLine();
-        //    Console.WriteLine("Dati autorul cartii: ");
-        //    Autor = Console.ReadLine();
-        //    Console.WriteLine("Dati editura cartii: ");
-        //    Editura = Console.ReadLine();
-        //    Console.WriteLine("Dati ISBN-ul cartii: ");
-        //    ISBN = Console.ReadLine();
-        //    Console.WriteLine("Dati anul aparitiei cartii: ");
-        //    int.TryParse(Console.ReadLine(), out anAparitie);
-        //    Console.WriteLine("Dati anul editiei cartii: ");
-        //    int.TryParse(Console.ReadLine(), out anEditie);
-        //    Console.WriteLine("Dati nr de exemplare: ");
-        //    int.TryParse(Console.ReadLine(), out nrExemplare);
-        //}
-
+        
         //Stocare carte in fisier
 
         public void SalvareCarte()
@@ -112,67 +93,6 @@ namespace ClasaCarte
                 
             }
         }
-
-        // Afisare Carte
-
-        //public void AfisareCarte()
-        //{
-        //    Console.Write("\n\n------------------------\n\n");
-
-        //    Console.WriteLine("Id Carte:  {0}", id);
-        //    Console.WriteLine("Titlu:  {0}", Titlu);
-        //    Console.WriteLine("Autor:  {0}", Autor);
-        //    Console.WriteLine("Editura:  {0}", Editura);
-        //    Console.WriteLine("ISBN: {0}",ISBN);
-        //    Console.WriteLine("Anul aparitiei:  {0}", anAparitie);
-        //    Console.WriteLine("Nr exemplare:  {0}", nrExemplare);
-
-        //    Console.Write("\n------------------------\n\n");
-        //}
-
-        // Afisare fara ID
-
-        //public void AfisareCarteFaraID()
-        //{
-        //    Console.Write("------------------------\n\n");
-
-        //    Console.WriteLine("Titlu:  {0}", Titlu);
-        //    Console.WriteLine("Autor:  {0}", Autor);
-        //    Console.WriteLine("Editura:  {0}", Editura);
-        //    Console.WriteLine("ISBN: {0}", ISBN);
-        //    Console.WriteLine("Anul aparitiei:  {0}", anAparitie);
-        //    Console.WriteLine("Nr exemplare:  {0}", nrExemplare);
-        //    Console.WriteLine("Anul editiei:  {0}", anEditie);
-
-        //    Console.Write("\n------------------------\n\n");
-        //}
-
-                
-        // Returneaza ID-ul cartii cu titlul acela
-
-        //private int CautareCarte()
-        //{
-
-        //        Console.WriteLine("Dati titlul cartii pe care o cautati: ");
-
-        //        string titlu = Console.ReadLine();
-        //        string path = @"Biblioteca.txt";
-
-        //        using (StreamReader sr = new StreamReader(path))
-        //        {
-        //            while (!sr.EndOfStream)
-        //            {
-        //                string line = sr.ReadLine();
-        //                string[] lineSplit = line.Split(';');
-        //                if (lineSplit[1] == titlu)
-        //                {
-        //                    int.TryParse(lineSplit[0], out int result);
-        //                    return result;
-        //                }
-        //            }
-        //        }
-        //        return 0;
-        //}
 
 
         // Verificare daca exista deja cartea:
@@ -256,9 +176,12 @@ namespace ClasaCarte
                     carte.Autor = lineSplit[2];
                     carte.Editura = lineSplit[3];
                     carte.ISBN = lineSplit[4];
-                    int.TryParse(lineSplit[5], out carte.anAparitie);
-                    int.TryParse(lineSplit[6], out carte.nrExemplare);
-                    int.TryParse(lineSplit[0], out carte.id);
+                    int.TryParse(lineSplit[5], out int anAparitie);
+                    int.TryParse(lineSplit[6], out int nrExemplare);
+                    int.TryParse(lineSplit[0], out int id);
+                    carte.anAparitie = anAparitie;
+                    carte.nrExemplare = nrExemplare;
+                    carte.id = id;
                     listaCarti.Add(carte);
                 }
                 return listaCarti;
@@ -327,6 +250,19 @@ namespace ClasaCarte
                 }
                 return "Eroare";
             }
+        }
+
+
+        // Funcție ce primește ID-ul unei cărți și returnează nr de exemplare
+
+        public static int RetNrExemplare(int id)
+        {
+
+            string[] lines = File.ReadAllLines(pathBiblioteca);
+
+            string[] lineSplit = lines[id-1].Split(';');
+            int.TryParse((string)lineSplit[6],out int result);
+            return result;
         }
 
     }

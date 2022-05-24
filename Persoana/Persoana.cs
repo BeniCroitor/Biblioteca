@@ -14,13 +14,13 @@ namespace ClasaPersoana
         private static string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
         private static string pathPers = locatieFisierSolutie + "\\" + numeFisier;
 
-        public string nume;
-        public string prenume;
-        public int ID;
-        public string CNP;
-        public int nrCartiImprumutate;
-        public double nrCI;
-        public string serieCI;
+        public string nume { get; set; }
+        public string prenume { get; set; }
+        public int ID { get; set; }
+        public string CNP { get; set; }
+        public int nrCartiImprumutate   { get; set; }
+        public double nrCI { get; set; }
+        public string serieCI { get; set; }
 
 
         // Constructor gol
@@ -88,7 +88,7 @@ namespace ClasaPersoana
                 {
                     string line = sr.ReadLine();
                     string[] lineSplit = line.Split(';');
-                    listaNumePersoane.Add(lineSplit[1] + " " + lineSplit[2]);
+                    listaNumePersoane.Add(lineSplit[1] + " " + lineSplit[2] + "  |  " + lineSplit[3]);
                 }
                 return listaNumePersoane;
             }

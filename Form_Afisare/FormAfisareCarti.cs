@@ -15,11 +15,7 @@ namespace Form_Afisare
     public partial class FormAfisareCarti : Form
     {
 
-        private const int LATIME_CONTROL = 100;
-        private const int DIMENSIUNE_PAS_Y = 30;
-        private const int DIMENSIUNE_PAS_X = 120;
         private static List<Carte> listaCarti;
-        private static int nrCartiFisier = 1;
 
 
         public FormAfisareCarti()
@@ -27,10 +23,11 @@ namespace Form_Afisare
             this.CenterToScreen();
             InitializeComponent();
 
+            listView1.Font = new Font(listView1.Font, FontStyle.Bold);
+
             listaCarti = Carte.ReturnCarti();
             foreach(Carte carte in listaCarti)
             {
-                nrCartiFisier++;
                 string[] elem = new string[7];
                 elem[0] = Convert.ToString(carte.id);
                 elem[1] = carte.Titlu;
@@ -42,6 +39,7 @@ namespace Form_Afisare
 
 
                 ListViewItem item = new ListViewItem(elem);
+                item.Font = new Font(item.Font, FontStyle.Regular);
                 listView1.Items.Add(item);
             }
 
@@ -61,10 +59,11 @@ namespace Form_Afisare
                 elem[4] = carte.ISBN;
                 elem[5] = Convert.ToString(carte.anAparitie);
                 elem[6] = Convert.ToString(carte.nrExemplare);
-
-                if (elem[1].ToLower().Contains(textBox1.Text.ToLower()) || elem[2].ToLower().Contains(textBox1.Text.ToLower()) || elem[3].ToLower().Contains(textBox1.Text.ToLower()))
+                
+                if (elem[1].ToLower().Contains(SearchBox.Text.ToLower()) || elem[2].ToLower().Contains(SearchBox.Text.ToLower()) || elem[3].ToLower().Contains(SearchBox.Text.ToLower()))
                 {
                     ListViewItem item = new ListViewItem(elem);
+                    item.Font = new Font(item.Font, FontStyle.Regular);
                     listView1.Items.Add(item);
                 }
 

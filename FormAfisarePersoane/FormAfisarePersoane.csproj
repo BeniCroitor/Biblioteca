@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Imprumut\Imprumut.csproj">
+      <Project>{82458b85-e0d6-4eb3-b7b4-9efdb51f8284}</Project>
+      <Name>Imprumut</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Persoana\Persoana.csproj">
       <Project>{5cc1f161-1110-4711-a2c8-614213a350a8}</Project>
       <Name>Persoana</Name>

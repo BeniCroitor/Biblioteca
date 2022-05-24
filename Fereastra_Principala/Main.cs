@@ -11,6 +11,8 @@ using FormAdaugareCarte;
 using FormAdaugarePersoana;
 using FormAfisarePersoane;
 using Form_Afisare;
+using Form_Imprumut;
+using Form_Gestionare_Imprumuturi;
 
 namespace Fereastra_Principala
 {
@@ -46,6 +48,26 @@ namespace Fereastra_Principala
             FormAfisarePersoane.FormAfisarePersoane formAfisarePersoane = new FormAfisarePersoane.FormAfisarePersoane();
             formAfisarePersoane.ShowDialog(this);
             
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form_Imprumut.Form_Imprumut formAdaugareImprumut = new Form_Imprumut.Form_Imprumut();
+            formAdaugareImprumut.ShowDialog(this);
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form_Gestionare_Imprumuturi.Form_Gestionare_Imprumuturi formAfisareImprumutur = new Form_Gestionare_Imprumuturi.Form_Gestionare_Imprumuturi();
+            formAfisareImprumutur.ShowDialog(this);
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormAfisareIstoricImprumuturi.FormIstoric formAfisareIstoric = new FormAfisareIstoricImprumuturi.FormIstoric();
+            formAfisareIstoric.ShowDialog(this);
         }
     }
 }

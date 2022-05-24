@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Form Imprumut\Form Imprumut.csproj">
+      <Project>{fc017bd6-540b-4bc4-8115-9e0476d1c7fc}</Project>
+      <Name>Form Imprumut</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FormAdaugareCarte\FormAdaugareCarte.csproj">
       <Project>{68dbbb1e-f062-457e-b2f7-4168b2d91bcf}</Project>
       <Name>FormAdaugareCarte</Name>
@@ -88,6 +92,10 @@
       <Project>{6ac06a16-af11-4f94-b4c5-b7b8b28d7cef}</Project>
       <Name>FormAdaugarePersoana</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FormAfisareIstoricImprumuturi\FormAfisareIstoricImprumuturi.csproj">
+      <Project>{8356e53c-2cd7-4e9d-84b9-efa1f1f6dfcd}</Project>
+      <Name>FormAfisareIstoricImprumuturi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FormAfisarePersoane\FormAfisarePersoane.csproj">
       <Project>{30436ea6-a195-4ce0-a065-1092ec300854}</Project>
       <Name>FormAfisarePersoane</Name>
@@ -95,6 +103,10 @@
     <ProjectReference Include="..\Form_Afisare\FormAfisareCarti.csproj">
       <Project>{af5f01a0-fbf2-45e0-a431-f8faa05d97e2}</Project>
       <Name>FormAfisareCarti</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Form_Gestionare_Imprumuturi\Form_Gestionare_Imprumuturi.csproj">
+      <Project>{9b19c598-7a5b-49ba-b905-7a9bdb5d8c2e}</Project>
+      <Name>Form_Gestionare_Imprumuturi</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

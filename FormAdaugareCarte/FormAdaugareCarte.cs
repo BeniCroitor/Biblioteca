@@ -32,26 +32,26 @@ namespace FormAdaugareCarte
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
-            textBox4.Clear();
-            textBox5.Clear();
-            numericUpDown1.Value = 1;
+            textBoxTitlu.Clear();
+            textBoxAutor.Clear();
+            textBoxEditura.Clear();
+            textBoxISBN.Clear();
+            textBoxAn.Clear();
+            numericUpDownNrExemplare.Value = 1;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == string.Empty || textBox2.Text == string.Empty || textBox3.Text == string.Empty || textBox4.Text == string.Empty || textBox5.Text == string.Empty)
+            if (textBoxTitlu.Text == string.Empty || textBoxAutor.Text == string.Empty || textBoxEditura.Text == string.Empty || textBoxISBN.Text == string.Empty || textBoxAn.Text == string.Empty)
                 { DialogResult res = MessageBox.Show("Cel putin un camp este gol!", "EROARE", MessageBoxButtons.OK); }
             else
                 if (lblEroareAn.Visible==true || lblEroareAutor.Visible ==true || lblEroareEditura.Visible == true)
             { DialogResult res = MessageBox.Show("Completati toate campurile corect!", "EROARE", MessageBoxButtons.OK); }
             else
             {
-                int.TryParse(textBox5.Text, out int anApar);
-                this.carte = new Carte(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, anApar, Convert.ToInt32(numericUpDown1.Value));
-                if(carte.)
+                int.TryParse(textBoxAn.Text, out int anApar);
+                this.carte = new Carte(textBoxTitlu.Text, textBoxAutor.Text, textBoxEditura.Text, textBoxISBN.Text, anApar, Convert.ToInt32(numericUpDownNrExemplare.Value));
+                
                 carte.SalvareCarte();
             }
         }
@@ -78,27 +78,27 @@ namespace FormAdaugareCarte
 
         private void textBox2_Validating(object sender, CancelEventArgs e)
         {
-            if (textBox2.Text.Any(char.IsDigit) || textBox2.Text.Any(char.IsControl) || textBox2.Text.Any(char.IsNumber) || textBox2.Text.Any(char.IsPunctuation) || textBox2.Text.Any(char.IsSurrogate) || textBox2.Text.Any(char.IsSymbol))
+            if (textBoxAutor.Text.Any(char.IsDigit) || textBoxAutor.Text.Any(char.IsControl) || textBoxAutor.Text.Any(char.IsNumber) || textBoxAutor.Text.Any(char.IsPunctuation) || textBoxAutor.Text.Any(char.IsSurrogate) || textBoxAutor.Text.Any(char.IsSymbol))
                 lblEroareAutor.Visible = true;
             else
-                if (textBox2.Text.All(char.IsWhiteSpace))
+                if (textBoxAutor.Text.All(char.IsWhiteSpace))
                 lblEroareAutor.Visible = true;
             else
                 lblEroareAutor.Visible =false;
-            if (textBox2.Text ==string.Empty)
+            if (textBoxAutor.Text ==string.Empty)
                 lblEroareAutor.Visible=false;
         }
 
         private void textBox3_Validating(object sender, CancelEventArgs e)
         {
-            if (textBox3.Text.Any(char.IsDigit) || textBox3.Text.Any(char.IsControl) || textBox3.Text.Any(char.IsNumber) || textBox3.Text.Any(char.IsPunctuation) || textBox3.Text.Any(char.IsSurrogate) || textBox3.Text.Any(char.IsSymbol))
+            if (textBoxEditura.Text.Any(char.IsDigit) || textBoxEditura.Text.Any(char.IsControl) || textBoxEditura.Text.Any(char.IsNumber) || textBoxEditura.Text.Any(char.IsPunctuation) || textBoxEditura.Text.Any(char.IsSurrogate) || textBoxEditura.Text.Any(char.IsSymbol))
                 lblEroareEditura.Visible = true;
             else
-                if (textBox3.Text.All(char.IsWhiteSpace))
+                if (textBoxEditura.Text.All(char.IsWhiteSpace))
                 lblEroareEditura.Visible = true;
             else
                 lblEroareEditura.Visible = false;
-            if (textBox3.Text == string.Empty)
+            if (textBoxEditura.Text == string.Empty)
                 lblEroareEditura.Visible = false;
         }
 
@@ -109,13 +109,25 @@ namespace FormAdaugareCarte
 
         private void textBox5_Validating(object sender, CancelEventArgs e)
         {
-            int.TryParse(textBox5.Text, out int value);
-            if (!int.TryParse(textBox5.Text, out int x) || !(value >= 1000 && value <=DateTime.Now.Year))
+            int.TryParse(textBoxAn.Text, out int value);
+            if (!int.TryParse(textBoxAn.Text, out int x) || !(value >= 1000 && value <=DateTime.Now.Year))
                 lblEroareAn.Visible = true;
             else
                 lblEroareAn.Visible=false;
-            if (textBox5.Text == string.Empty)
+            if (textBoxAn.Text == string.Empty)
                 lblEroareAn.Visible = false;
+        }
+
+        private void textBox4_Validating(object sender, CancelEventArgs e)
+        {
+            if (textBoxISBN.Text == string.Empty)
+                lblEroareISBN.Visible = false;
+            if (!textBoxISBN.Text.All(char.IsDigit))
+                lblEroareISBN.Visible = true;
+            if (textBoxISBN.Text.Length != 13 && textBoxISBN.Text.Length !=10)
+                lblEroareISBN.Visible = true;
+            else
+                lblEroareISBN.Visible=false;
         }
     }
 }

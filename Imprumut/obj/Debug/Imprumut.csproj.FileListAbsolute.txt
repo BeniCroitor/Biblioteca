@@ -15,3 +15,14 @@ C:\Users\User\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.CoreCom
 C:\Users\User\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.CopyComplete
 C:\Users\User\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.dll
 C:\Users\User\Source\Repos\Biblioteca\Imprumut\obj\Debug\Imprumut.pdb
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\Imprumut.dll
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\Imprumut.pdb
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\ClassLibrary.dll
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\Persoana.dll
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\ClassLibrary.pdb
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\bin\Debug\Persoana.pdb
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.AssemblyReference.cache
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.CoreCompileInputs.cache
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\obj\Debug\Imprumut.csproj.CopyComplete
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\obj\Debug\Imprumut.dll
+C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Imprumut\obj\Debug\Imprumut.pdb
