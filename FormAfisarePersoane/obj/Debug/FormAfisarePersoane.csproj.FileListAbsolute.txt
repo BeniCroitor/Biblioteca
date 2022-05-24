@@ -36,3 +36,17 @@ C:\Users\STUDENT\source\repos\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.
 C:\Users\STUDENT\source\repos\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.CoreCompileInputs.cache
 C:\Users\STUDENT\source\repos\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.exe
 C:\Users\STUDENT\source\repos\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.pdb
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\FormAfisarePersoane.exe.config
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\FormAfisarePersoane.exe
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\FormAfisarePersoane.pdb
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\Persoana.dll
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\bin\Debug\Persoana.pdb
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.FormAfisarePersoane.resources
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.Properties.Resources.resources
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.csproj.CopyComplete
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.exe
+C:\Users\User\Source\Repos\Biblioteca\FormAfisarePersoane\obj\Debug\FormAfisarePersoane.pdb

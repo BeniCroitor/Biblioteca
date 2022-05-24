@@ -240,7 +240,7 @@ namespace ClasaCarte
         }
 
 
-        // Returneaza un vector cu toate cartile din fisier
+        // Returneaza lista cu toate cartile din fisier
 
         static public List<Carte> ReturnCarti()
         {
@@ -267,8 +267,67 @@ namespace ClasaCarte
 
 
 
+        // Returneaza lista cu numele cartilor
 
+        static public List<string> ListaNumeCarti()
+        {
+            List<string> listaNumeCarti = new List<string>();
+            using (StreamReader sr = new StreamReader(pathBiblioteca))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
 
+                    listaNumeCarti.Add(lineSplit[1] + " - " + lineSplit[2]);
+                }
+                return listaNumeCarti;
+            }
+        }
+
+        // Functie ce returneaza ID ul unei carti dupa nume si autor
+
+        static public int SearchTitlu(string titlu)
+        {
+            using (StreamReader sr = new StreamReader(pathBiblioteca))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+                    string[] titluSplit = titlu.Split('-');
+
+                    if (lineSplit[1] == titluSplit[0].Trim() && lineSplit[2] == titluSplit[1].Trim())
+                    {
+                        int.TryParse(lineSplit[0], out int result);
+                        return result;
+                    }
+
+                }
+                return -1;
+            }
+        }
+
+        //      REVERSE::  Functie ce returneaza ID ul unei carti dupa nume si autor
+
+        static public string SearchID(int id)
+        {
+            using (StreamReader sr = new StreamReader(pathBiblioteca))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] lineSplit = line.Split(';');
+
+                    if (lineSplit[0] == Convert.ToString(id))
+                    {
+                        return lineSplit[1] + " - " + lineSplit[2];
+                    }
+
+                }
+                return "Eroare";
+            }
+        }
 
     }
 }

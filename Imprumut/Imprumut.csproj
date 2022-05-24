@@ -44,5 +44,15 @@
     <Compile Include="Imprumut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\Carte.csproj">
+      <Project>{42ab2a15-f972-4026-a300-69dd38b2bca7}</Project>
+      <Name>Carte</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persoana\Persoana.csproj">
+      <Project>{5cc1f161-1110-4711-a2c8-614213a350a8}</Project>
+      <Name>Persoana</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

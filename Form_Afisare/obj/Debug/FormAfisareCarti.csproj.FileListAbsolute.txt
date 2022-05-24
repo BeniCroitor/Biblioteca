@@ -65,3 +65,17 @@ C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Form_Afisare\obj\Debug\FormAf
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.CopyComplete
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.exe
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.pdb
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe.config
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.exe
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\Form_Afisare.pdb
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.dll
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\bin\Debug\ClassLibrary.pdb
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.FormAfisareCarti.resources
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.Properties.Resources.resources
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\FormAfisareCarti.csproj.CopyComplete
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.exe
+C:\Users\User\Source\Repos\Biblioteca\Form_Afisare\obj\Debug\Form_Afisare.pdb

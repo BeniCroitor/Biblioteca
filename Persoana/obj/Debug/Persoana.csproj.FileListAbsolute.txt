@@ -28,3 +28,9 @@ C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Persoana\obj\Debug\Persoana.c
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Persoana\obj\Debug\Persoana.csproj.CoreCompileInputs.cache
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Persoana\obj\Debug\Persoana.dll
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Persoana\obj\Debug\Persoana.pdb
+C:\Users\User\Source\Repos\Biblioteca\Persoana\bin\Debug\Persoana.dll
+C:\Users\User\Source\Repos\Biblioteca\Persoana\bin\Debug\Persoana.pdb
+C:\Users\User\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.dll
+C:\Users\User\Source\Repos\Biblioteca\Persoana\obj\Debug\Persoana.pdb
