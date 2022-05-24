@@ -65,3 +65,41 @@ C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debu
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.exe
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.pdb
 C:\Users\croit\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Fereastra_Principala.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Fereastra_Principala.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Fereastra_Principala.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form Imprumut.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugareCarte.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugarePersoana.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisarePersoane.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Afisare.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Gestionare_Imprumuturi.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Imprumut.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Persoana.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form Imprumut.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form Imprumut.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugareCarte.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugareCarte.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugarePersoana.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAdaugarePersoana.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisareIstoricImprumuturi.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisarePersoane.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\FormAfisarePersoane.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Afisare.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Afisare.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Gestionare_Imprumuturi.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Form_Gestionare_Imprumuturi.exe.config
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Imprumut.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\bin\Debug\Persoana.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.Feresatra_Principala.resources
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.Properties.Resources.resources
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.csproj.GenerateResource.cache
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.csproj.CopyComplete
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.exe
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\Fereastra_Principala\obj\Debug\Fereastra_Principala.pdb

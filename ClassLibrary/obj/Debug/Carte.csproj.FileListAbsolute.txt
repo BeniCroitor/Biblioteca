@@ -44,3 +44,14 @@ C:\Users\User\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCo
 C:\Users\User\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CopyComplete
 C:\Users\User\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\User\Source\Repos\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\ISBN.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\ISBN.xml
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\obj\Debug\Carte.csproj.CopyComplete
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\STUDENT\Source\Repos\BeniCroitor\Biblioteca\ClassLibrary\obj\Debug\ClassLibrary.pdb

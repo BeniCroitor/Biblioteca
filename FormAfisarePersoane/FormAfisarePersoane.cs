@@ -53,7 +53,7 @@ namespace FormAfisarePersoane
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonSearch_Click(object sender, EventArgs e)
         {
             cautare_Persoana();
         }

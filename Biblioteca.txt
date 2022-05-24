@@ -9,3 +9,4 @@
 9;Dublul;Fyodor M Dostoevski;Art;9786067106961;2021;1
 10;Faust;Goethe;Humanitas;9789735057503;2017;1
 11;Istoria Evului Mediu;Georges Minois;Nemira;9786064306845;2021;1
+12;Ion;Liviu Rebreanuy;Adevarul;9014837385485;2021;4

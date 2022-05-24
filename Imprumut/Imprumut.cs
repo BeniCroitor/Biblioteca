@@ -23,6 +23,8 @@ namespace ClasaImprumut
         public int idCarte { get; set; }
         public string Date_out { get; set; }
 
+        const int NrMaxCarti = 3;
+
 
         // Constructor fara param
         public Imprumut()
@@ -147,7 +149,7 @@ namespace ClasaImprumut
                 if (lineSplit[2] == Convert.ToString(idPers))
                     i++;
             }
-            if (i >= 3)
+            if (i >= NrMaxCarti)
                 return true;
             return false;
         }

@@ -126,7 +126,7 @@ namespace FormAfisarePersoane
             this.buttonSearch.TabIndex = 2;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
-            this.buttonSearch.Click += new System.EventHandler(this.button1_Click);
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // FormAfisarePersoane
             // 

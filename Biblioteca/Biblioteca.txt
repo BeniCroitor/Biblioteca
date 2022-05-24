@@ -1,7 +1,0 @@
-1;Ion;Liviu Rebreanu;Adevarul;298789524352345;2012;2020;1
-2;Moara cu noroc;Ioan Slavici;Rao;498738495634;1881;2020;1
-3;Stapanul Inelelor;J R R Tolkien;Harper Collins;29384572384;1954;2020;2
-4;sdjfkghkj;sdfgjh;sfgsfdgj;458769;2012;2020;2
-5;AAABBB;abab;baba;1234;2000;2000;12
-6;Beowulf;J R R Tolkien;Harper Collins;90123847354;1972;2019;2
-7;hdfg;dfgh;fdgh;fdgh;2019;2020;2
