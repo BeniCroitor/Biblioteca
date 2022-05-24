@@ -60,7 +60,7 @@ namespace FormAfisarePersoane
             this.listView1.Location = new System.Drawing.Point(9, 62);
             this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(754, 483);
+            this.listView1.Size = new System.Drawing.Size(754, 620);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -132,12 +132,13 @@ namespace FormAfisarePersoane
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(772, 554);
+            this.ClientSize = new System.Drawing.Size(772, 691);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.SwearchBox);
             this.Controls.Add(this.listView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(790, 1920);
             this.Name = "FormAfisarePersoane";
             this.Padding = new System.Windows.Forms.Padding(9, 62, 9, 9);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

@@ -284,7 +284,7 @@
             this.AcceptButton = this.ButonAdauga;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 526);
+            this.ClientSize = new System.Drawing.Size(313, 355);
             this.Controls.Add(this.numericUpDownNrExemplare);
             this.Controls.Add(this.ButonAdauga);
             this.Controls.Add(this.ButonSterge);
@@ -301,6 +301,7 @@
             this.Controls.Add(this.lblTitlu);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(410, 491);
             this.MinimumSize = new System.Drawing.Size(410, 491);
             this.Name = "FormAdaugareCarte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

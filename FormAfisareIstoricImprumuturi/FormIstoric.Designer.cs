@@ -55,7 +55,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(937, 450);
+            this.dataGridView1.Size = new System.Drawing.Size(1005, 578);
             this.dataGridView1.TabIndex = 0;
             // 
             // ID
@@ -102,9 +102,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(937, 450);
+            this.ClientSize = new System.Drawing.Size(804, 462);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1023, 1080);
+            this.MinimumSize = new System.Drawing.Size(1023, 500);
             this.Name = "FormIstoric";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Istoric Împrumuturi";

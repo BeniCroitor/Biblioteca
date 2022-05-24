@@ -262,16 +262,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 555);
+            this.Controls.Add(this.buttonConfirmare);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblEroareCarte);
             this.Controls.Add(this.lblEroarePers);
-            this.Controls.Add(this.buttonConfirmare);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox_Carte);
             this.Controls.Add(this.comboBox_Pers);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(473, 602);
             this.Name = "Form_Imprumut";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Împrumut nou";

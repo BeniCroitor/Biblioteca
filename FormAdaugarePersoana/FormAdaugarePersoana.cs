@@ -118,8 +118,8 @@ namespace FormAdaugarePersoana
                 { DialogResult eroare = MessageBox.Show("Completati toate campurile corect", "EROARE", MessageBoxButtons.OK); }
                 else
                 {
-                    int.TryParse(txtNr.Text, out int nr);
-                    ClasaPersoana.Persoana persoana = new Persoana(-1, txtNume.Text, txtPrenume.Text, txtCNP.Text, txtSerie.Text, nr);
+                    int.TryParse(txtNr.Text.Trim(), out int nr);
+                    ClasaPersoana.Persoana persoana = new Persoana(-1, txtNume.Text.Trim(), txtPrenume.Text.Trim(), txtCNP.Text.Trim(), txtSerie.Text.Trim(), nr);
                     persoana.SalvarePersoana();
                 }
             }

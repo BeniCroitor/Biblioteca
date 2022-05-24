@@ -49,8 +49,8 @@ namespace FormAdaugareCarte
             { DialogResult res = MessageBox.Show("Completati toate campurile corect!", "EROARE", MessageBoxButtons.OK); }
             else
             {
-                int.TryParse(textBoxAn.Text, out int anApar);
-                this.carte = new Carte(textBoxTitlu.Text, textBoxAutor.Text, textBoxEditura.Text, textBoxISBN.Text, anApar, Convert.ToInt32(numericUpDownNrExemplare.Value));
+                int.TryParse(textBoxAn.Text.Trim(), out int anApar);
+                this.carte = new Carte(textBoxTitlu.Text.Trim(), textBoxAutor.Text.Trim(), textBoxEditura.Text.Trim(), textBoxISBN.Text.Trim(), anApar, Convert.ToInt32(numericUpDownNrExemplare.Value));
                 
                 carte.SalvareCarte();
             }
